@@ -5,11 +5,11 @@ console.log("This is my index.js");
 const data = [
     {
         name: 'Chirantan Banik',
-        aboutMe: 'I am currently a second-year B.Tech(CSE) student at Sikkim Manipal Institute of Technology. Im the type of person who enjoys trying new things and taking on new challenges. Im always on the lookout for the right opportunities',
+        aboutMe: 'I am the type of person who enjoys trying new things and taking on new challenges.',
         age: 21,
-        city: 'Chabua',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
+        city: 'Chabua, Assam',
+        programmingLanguages: 'C++, Javascript',
+        interests: 'Web Development, Content Creation, Reading Self Growth Books & listening to the Stories of Indian Armed Forces are my interests',
         image: 'photos/ChirantanBanik.png'
 
     },
@@ -18,95 +18,74 @@ const data = [
 
     {
        name: 'Srayoshi Mukherjee',
+       aboutMe: 'I am a student of Sikkim Manipal Institute of Technology.',
        age: 20,
-       city: 'Tinsukia',
-       programmingLanguages: 'C++, javascript',
-       framework: 'Nodejs, Express',
-       image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
+       city: 'Tinsukia, Assam',
+       programmingLanguages: 'C, C++ & Python',
+       interests: 'My hobbies include dancing & painting.',
+       image: 'photos/Srayoshi.png'
 
     },
 
-    {
-        name: 'Harshit Aditya',
-        age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
-    
-    },
 
     {
         name: 'Vinayak Gavariya',
+        aboutMe: 'I am a web developer who has a keen interest in AI/ML and data science.',
         age: 20,
-        city: 'Indore',
+        city: 'Indore, Madhya Pradesh',
         programmingLanguages: 'C++, C, Python',
-        framework: 'Reactjs',
-        image: 'photos/Vinayak.JPG'
+        interests: ' Community management is one of my hobbies these days. I do love to create Spotify playlists too.',
+        image: 'photos/Vinayak.png'
     
     },
 
     {
-        name: 'Pema Yangzom Dorgi',
+        name: 'Pema Yangzom Dorji',
+        aboutMe: 'I am Pema Yangzom Dorji and I like Programming, AI, and Gaming',
         age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
-    
-    },
-
-    {
-        name: 'Diwas Mundra',
-        age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
-    
-    },
-
-    {
-        name: 'Pulak Trivadi',
-        age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
+        city: 'Gangtok, Sikkim',
+        programmingLanguages: 'C, C++, Java, Python(bit)',
+        interests: 'My interest lie in the field of Robotics',
+        image: 'photos/Pema.png'
     
     },
 
     {
         name: 'Dev Raj Bharti',
+        aboutMe: 'I am Dev Raj Bharti, a passionate 2nd year Student at SMIT. I like to do coding and be around what makes me better.',
         age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
+        city: 'Udampur, Jammu & Kashmir',
+        programmingLanguages: 'C, C++, Python and Java',
+        interests: 'Entrepreneurship and Cloud Computing are my Interests.',
+        image: 'photos/Dev.png'
     
     },
 
     {
-        name: 'Ashish Kumar Adarsh',
-        age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
+        name: 'Diwas Mundra', 
+        age: 21,
+        aboutMe: 'I am Diwas Mundra a Student of CSE at Sikkim Manipal Institute of Technology',
+        city: 'Gangtok, Sikkim',
+        programmingLanguages: 'Python',
+        interests: 'Interested in Web Development, Ethical Hacking etc',
+        image: 'photos/Diwas.png'
     
     },
 
+
     {
-        name: 'Adarsh Sharma',
+        name: 'Adarsh Sharma', 
         age: 20,
-        city: 'Tinsukia',
-        programmingLanguages: 'C++, javascript',
-        framework: 'Nodejs, Express',
-        image: 'https://drive.google.com/file/d/1U_fBSXbsnlnQyVMFYWzRdbkiyOk15zB9/view?usp=sharing'
+        aboutMe: 'I am Adarsh Sharma I am basically a learner. Generally prefer learning new things.',
+        city: 'Gangtok, Sikkim',
+        programmingLanguages: 'C, C++, Java, Python(Basic)',
+        interests: 'Outdoor Activities/Sports and reading books are my interests',
+        image: 'photos/Adarsh.png'
     
     }
-
 ]
+
+
 
 // CV Iterator
 
@@ -124,6 +103,7 @@ function cvIterator(profiles){
 const candidates = cvIterator(data);
 
 nextCV();
+
 // Button Listener for next Button
 
 const next = document.getElementById('next');
@@ -142,14 +122,12 @@ function nextCV(){
     <li class="list-group-item">${CurrentCandidate.age} years old</li>
     <li class="list-group-item">Lives in: ${CurrentCandidate.city}</li>
     <li class="list-group-item">Languages known: ${CurrentCandidate.programmingLanguages}</li>
-    <li class="list-group-item">Works with: ${CurrentCandidate.framework} frameworks</li>
-    
-    </ul>`;
+    <li class="list-group-item"> ${CurrentCandidate.interests} </li>
+   </ul>`;
     }
     else {
         alert('End of Applications');
         window.location.reload();
     }
-
 }
 
